@@ -1,0 +1,9 @@
+{
+  "name": "lazy-finder",
+  "scripts": {
+    "test:node": "node --experimental-strip-types src/runtimes/node/index.ts",
+    "test:bun": "bun run src/runtimes/bun/index.ts",
+    "test:deno": "deno src/runtimes/deno/index.ts"
+  },
+  "type": "module"
+}
