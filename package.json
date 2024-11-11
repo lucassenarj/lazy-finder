@@ -5,5 +5,21 @@
     "test:bun": "bun run src/runtimes/bun/index.ts",
     "test:deno": "deno src/runtimes/deno/index.ts"
   },
-  "type": "module"
+  "type": "module",
+  "version": "0.0.1",
+  "description": "## Node (v23.1.0) - `npm run test:node`",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucassenarj/lazy-finder.git"
+  },
+  "author": "Lucas Sena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucassenarj/lazy-finder/issues"
+  },
+  "homepage": "https://github.com/lucassenarj/lazy-finder#readme",
+  "dependencies": {
+    "@types/node": "^22.9.0"
+  }
 }
