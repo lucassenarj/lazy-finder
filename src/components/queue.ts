@@ -55,4 +55,8 @@ export default class Queue {
   isEmpty(): boolean {
     return !this.size;
   }
+
+  length(): number {
+    return this.size;
+  }
 }
