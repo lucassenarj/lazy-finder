@@ -9,4 +9,10 @@
 ## Bun (v1.1.34)
 - `bun run test:bun`
 
+## TODO
+- [ ] receive 2 parameters
+    - [ ] first: item to be founded
+    - [ ] second: dir to search, if empty, search in current folder
+- [ ] ignore node_modules folder
+    - [ ] ignore folders in .gitignore file
 

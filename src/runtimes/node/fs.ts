@@ -5,7 +5,6 @@ class FileSystem implements FileSystemInterface {
   openFolder(path: string): string {
     const options = {
       withFileTypes: true,
-      recursive: true,
     };
 
     const dir = fs.readdirSync(path, options);
